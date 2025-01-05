@@ -11,6 +11,8 @@
 #include <driver/gpio.h>
 #include <time.h>
 
+
+
 // Configuration Wi-Fi et MQTT
 const char* ssid = "Bbox-5D58DA16";
 const char* password = "mirage2000";
