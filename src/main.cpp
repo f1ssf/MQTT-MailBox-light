@@ -12,14 +12,13 @@
 #include <time.h>
 #include "secret.h"
 
-
-
 // Configuration Wi-Fi et MQTT
-const char* ssid = "wifi_ssid";
-const char* password = "wifi_password";
-const char* mqtt_server = "ip_brooker";
-const char* mqtt_user = "user_brooker";
-const char* mqtt_password = "password_brooker";
+const char* ssid = wifi_ssid;
+const char* password = wifi_password;
+const char* mqtt_server = ip_brooker;
+const char* mqtt_user = user_brooker;
+const char* mqtt_password = password_brooker;
+
 const char* topic_lettre = "boite/lettres";
 const char* topic_colis = "boite/colis";
 const char* topic_presence = "boite/presence";
