@@ -12,11 +12,11 @@
 #include <time.h>
 
 // Configuration Wi-Fi et MQTT
-const char* ssid = "Bbox-5D58DA16";
-const char* password = "mirage2000";
-const char* mqtt_server = "192.168.1.62";
-const char* mqtt_user = "Teleinfomqtt";
-const char* mqtt_password = "mqtt42";
+const char* ssid = "your_ssid";
+const char* password = "your_password";
+const char* mqtt_server = "brooker_ip";
+const char* mqtt_user = "brooker_user";
+const char* mqtt_password = "brooker_password";
 const char* topic_lettre = "boite/lettres";
 const char* topic_colis = "boite/colis";
 const char* topic_presence = "boite/presence";
