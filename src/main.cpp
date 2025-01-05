@@ -10,15 +10,16 @@
 #include <esp_sleep.h>
 #include <driver/gpio.h>
 #include <time.h>
+#include "secret.h"
 
 
 
 // Configuration Wi-Fi et MQTT
-const char* ssid = "your_ssid";
-const char* password = "your_password";
-const char* mqtt_server = "brooker_ip";
-const char* mqtt_user = "brooker_user";
-const char* mqtt_password = "brooker_password";
+const char* ssid = "wifi_ssid";
+const char* password = "wifi_password";
+const char* mqtt_server = "ip_brooker";
+const char* mqtt_user = "user_brooker";
+const char* mqtt_password = "password_brooker";
 const char* topic_lettre = "boite/lettres";
 const char* topic_colis = "boite/colis";
 const char* topic_presence = "boite/presence";
